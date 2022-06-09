@@ -5,7 +5,7 @@ import {
   createUserDocumentFromAuth,
 } from "../utils/firebase/firebase.utils";
 
-// as the actual value you want to acceses
+// as the actual value you want to acceses (consumer)
 export const UserContext = createContext({
   setCurrentUser: () => null,
   currentUser: null,
